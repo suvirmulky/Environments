@@ -10,18 +10,18 @@ ml.yml : contains the basic packages needed for machine learning
    cd Environments
    ```
 **2) Create the environments**
-    ```sh
+    ```
     conda env create -f ml.yml  
     conda env create -f spark.yml
     ```
     
 **3)Lists the environments present** 
-    ```sh
+    ```
     conda info --envs
     ```
     
 **4)Activate the environments**
-    ```sh
+    ```
     source activate spark
     source activate ml
     ```
