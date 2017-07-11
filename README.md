@@ -15,7 +15,7 @@ ml.yml : contains the basic packages needed for machine learning
     conda env create -f spark.yml
     ```
     
-**3)lists the environments present** 
+**3)Lists the environments present** 
     ```sh
     conda info --envs
     ```
